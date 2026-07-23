@@ -5,6 +5,7 @@ from tkinter import messagebox
 # Function to establish database connection
 def connect_db():
     return mysql.connector.connect(
+        
         host='localhost',
         user='root',
         password='Enter your Mysql password',
